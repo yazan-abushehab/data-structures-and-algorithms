@@ -1,1 +1,1 @@
-![CC-01](./code%20challenge%201.jpg)
+![CC-01](./CC-01.png)
