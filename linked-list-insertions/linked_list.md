@@ -6,19 +6,19 @@
 
 ### insert
 
-![CC5](./CC-05.png.png)
+![CC5](./CC-05.png)
 
 ### append
 
-![CC6](./CC-06-A.png.png)
+![CC6](./CC-06-A.png)
 
 ### insert before
 
-![CC6](./CC-06-B.png.png)
+![CC6](./CC-06-B.png)
 
 ### insert after
 
-![CC6](./CC-06-C.png.png)
+![CC6](./CC-06-C.png)
 
 ## Approach & Efficiency
 
