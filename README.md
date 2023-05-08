@@ -13,4 +13,4 @@
 | CC-07         | [CC-07](./linked-list-insertions/linked_list.md)      |
 | CC-08         | [CC-08](./linked-list-zip/README.md)                  |
 | CC-09         | [CC-09](./stack-and-queue/README.md)                  |
-|               |                                                       |
+| CC-11         | [CC-11](./stack-queue-pseudo/README.md)               |
