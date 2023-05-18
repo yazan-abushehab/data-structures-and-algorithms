@@ -16,3 +16,4 @@
 | CC-11         | [CC-11](./stack-queue-pseudo/README.md)               |
 | CC-12         | [CC-12](./stack-queue-animal-shelter/README.md)       |
 | CC-13         | [CC-13](./stack-queue-brackets/README.md)             |
+| CC-15         | [CC-15](./trees/README.md)                            |
