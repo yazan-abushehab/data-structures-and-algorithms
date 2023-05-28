@@ -17,3 +17,5 @@
 | CC-12         | [CC-12](./stack-queue-animal-shelter/README.md)       |
 | CC-13         | [CC-13](./stack-queue-brackets/README.md)             |
 | CC-15         | [CC-15](./trees/README.md)                            |
+| CC-16         | [CC-16](./tree-max/README.md)                         |
+| CC-17         | [CC-15](./tree-breadth-first/README.md)               |
