@@ -9,29 +9,38 @@ class BinaryTree:
     def __init__(self):
         self.root = None
 
-    def preorder_traversal(self, node):
-        if node is None:
+    def preorder(self, root):
+        if self.root is None:
             return []
-        result = [node.value]
-        result += self.preorder_traversal(node.left)
-        result += self.preorder_traversal(node.right)
-        return result
+        list=[]
+        def recursive (root):
+            list.append(root.value)
+            if root.left : recursive(root.left)
+            if root.right : recursive(root.right)
+        recursive(root)    
+        return list
 
-    def inorder_traversal(self, node):
-        if node is None:
+    def inorder(self, root):
+        if self.root is None:
             return []
-        result = self.inorder_traversal(node.left)
-        result.append(node.value)
-        result += self.inorder_traversal(node.right)
-        return result
+        list=[]
+        def recursive (root):
+            if root.left : recursive(root.left)
+            list.append(root.value)
+            if root.right : recursive(root.right)
+        recursive(root)    
+        return list
 
-    def postorder_traversal(self, node):
-        if node is None:
+    def postorder(self, root):
+        if self.root is None:
             return []
-        result = self.postorder_traversal(node.left)
-        result += self.postorder_traversal(node.right)
-        result.append(node.value)
-        return result
+        list=[]
+        def recursive (root):
+            if root.left : recursive(root.left)
+            if root.right : recursive(root.right)
+            list.append(root.value)
+        recursive(root)    
+        return list
 
 
 class BinarySearchTree(BinaryTree):
@@ -86,6 +95,6 @@ print(bst.contains(4))  # True
 print(bst.contains(9))  # False
 
 # Performing depth first traversals
-print(bst.preorder_traversal(bst.root))    # [5, 3, 1, 4, 7, 6, 8]
-print(bst.inorder_traversal(bst.root))     # [1, 3, 4, 5, 6, 7, 8]
-print(bst.postorder_traversal(bst.root))   # [1, 4, 3, 6, 8, 7, 5]
+print(bst.preorder(bst.root))    # [5, 3, 1, 4, 7, 6, 8]
+print(bst.inorder(bst.root))     # [1, 3, 4, 5, 6, 7, 8]
+print(bst.postorder(bst.root))   # [1, 4, 3, 6, 8, 7, 5]

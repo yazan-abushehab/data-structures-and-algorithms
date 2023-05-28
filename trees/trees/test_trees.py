@@ -19,7 +19,7 @@ class BinarySearchTreeTests(unittest.TestCase):
         self.assertEqual(bst.root.left.value, 3)
         self.assertEqual(bst.root.right.value, 7)
 
-    def test_preorder_traversal(self):
+    def test_preorder(self):
         bst = BinarySearchTree()
         bst.add(5)
         bst.add(3)
@@ -29,9 +29,9 @@ class BinarySearchTreeTests(unittest.TestCase):
         bst.add(6)
         bst.add(8)
         expected = [5, 3, 1, 4, 7, 6, 8]
-        self.assertEqual(bst.preorder_traversal(bst.root), expected)
+        self.assertEqual(bst.preorder(bst.root), expected)
 
-    def test_inorder_traversal(self):
+    def test_inorder(self):
         bst = BinarySearchTree()
         bst.add(5)
         bst.add(3)
@@ -41,9 +41,9 @@ class BinarySearchTreeTests(unittest.TestCase):
         bst.add(6)
         bst.add(8)
         expected = [1, 3, 4, 5, 6, 7, 8]
-        self.assertEqual(bst.inorder_traversal(bst.root), expected)
+        self.assertEqual(bst.inorder(bst.root), expected)
 
-    def test_postorder_traversal(self):
+    def test_postorder(self):
         bst = BinarySearchTree()
         bst.add(5)
         bst.add(3)
@@ -53,7 +53,7 @@ class BinarySearchTreeTests(unittest.TestCase):
         bst.add(6)
         bst.add(8)
         expected = [1, 4, 3, 6, 8, 7, 5]
-        self.assertEqual(bst.postorder_traversal(bst.root), expected)
+        self.assertEqual(bst.postorder(bst.root), expected)
 
     def test_contains_existing_value(self):
         bst = BinarySearchTree()
