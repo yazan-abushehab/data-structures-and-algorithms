@@ -19,5 +19,6 @@
 | CC-15         | [CC-15](./trees/README.md)                            |
 | CC-16         | [CC-16](./tree-max/README.md)                         |
 | CC-17         | [CC-17](./tree-breadth-first/README.md)               |
-| CC-27         | [CC-27](./sorting-merge/README.md)               |
+| CC-27         | [CC-27](./sorting-merge/README.md)                    |
 | CC-28         | [CC-28](./Comparisons-Sort/README.md)                 |
+| CC-30         | [CC-30](./hash-table/README.md)                       |
