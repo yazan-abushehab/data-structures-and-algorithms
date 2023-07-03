@@ -22,3 +22,4 @@
 | CC-27         | [CC-27](./sorting-merge/README.md)                    |
 | CC-28         | [CC-28](./Comparisons-Sort/README.md)                 |
 | CC-30         | [CC-30](./hash-table/README.md)                       |
+| CC-31         | [CC-31](./hashmap-repeated-word/README.md)            |
